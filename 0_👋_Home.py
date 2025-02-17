@@ -24,7 +24,7 @@ st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">�
 
 
 # ----- Profile image file -----
-profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+profile_image_file_path = "pngegg.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
 with open(profile_image_file_path, "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+current_role = "I am a Senior Engineer at Tata Communications and have 7 years experience working in the field of data"   # TODO: Change this
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,17 +51,17 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a <Current Role and/or Studies> 
+- 🧑‍💻 I am a Senior Engineer at Tata Communications 
 
-- 🛩️ prev: <Previous Experience, Background or Studies>
+- 🛩️ prev: Working for an investment manager as a Senior Analyst
 
-- ❤️ <Your Passion and/or Interests>
+- ❤️ Science, Astronomy, Music
 
-- 🤖 <Your Personal Projects>
+- 🤖 None at the moment :) but they will come
 
-- 🏂 <Your Hobbies>
+- 🏂 Reading, Travelling
 
-- 📫 How to reach me: <Your Email>
+- 📫 massimiliano.nap@gmail.com 
 
 - 🏠 Barcelona
 """)
